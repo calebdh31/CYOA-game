@@ -1,0 +1,44 @@
+body {
+    background-image: url(https://media.textadventures.co.uk/coverart/07302226-d1a2-466b-9a26-4c33d8a20fa0%20cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+.starting-screen {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    border: 10px solid white;
+    border-color: rgb(118, 47, 47);
+}
+.story {
+    display: none;
+    flex-wrap: wrap;
+    color: white;
+    border: 10px solid white;
+    border-color: rgb(118, 47, 47);
+    background-color: black;
+}
+.start {
+    margin: 15px;
+    border-radius: 10px;
+    border-color: coral;
+    background-color: gray;
+    color: white;
+}
+.option-buttons {
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 20px;
+    display: none;
+    cursor: hand;
+  }
+  #reset {
+    display: none;
+  }

@@ -4,11 +4,18 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 h1 {
     color: red;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .starting-screen {
     display: flex;
@@ -16,14 +23,21 @@ h1 {
     color: white;
     border: 10px solid white;
     border-color: rgb(118, 47, 47);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 700px;
+    background-color: rgb(0, 0, 0, 0.7);
 }
 .story {
     display: none;
     flex-wrap: wrap;
+    flex-direction: column;
     color: white;
     border: 10px solid white;
     border-color: rgb(118, 47, 47);
-    background-color: black;
+    background-color: rgb(0, 0, 0, 0.7);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 700px;
+
 }
 .start {
     margin: 15px;
@@ -37,8 +51,25 @@ h1 {
     gap: 1rem;
     margin-top: 20px;
     display: none;
-    cursor: hand;
+  }
+  .option-buttons button {
+    background-color: gray;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+  }
+  .option-buttons button:hover {
+    transform: translate(-3px);
+    background-color: red;
   }
   #reset {
     display: none;
+    background-color: rgb(203, 52, 52);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
   }

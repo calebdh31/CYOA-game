@@ -18,4 +18,5 @@ Trello: https://trello.com/b/yix2UFg7/unit-1-project-ga
 
 Stretch goals: I plan on adding more interactive styling to the buttons and cursor changes.
 I'd also like to see if I can animations or sounds to react to choices made.
-Maybe some background music might be a nice touch as well.
+Maybe some background music might be a nice touch as well. 
+Last thing I had to end up scrapping was my health function which I'd like to expand the branches and endings to accomodate.

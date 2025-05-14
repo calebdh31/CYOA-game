@@ -14,6 +14,7 @@ The game ends when your storyline reaches its conclusion.
 If you want to try a different path/go for a different ending, you can select "Play Again" at the end of your run.
 I used HTML, CSS, and JavaScript to complete this project.
 
+Trello: https://trello.com/b/yix2UFg7/unit-1-project-ga
 
 Stretch goals: I plan on adding more interactive styling to the buttons and cursor changes.
 I'd also like to see if I can animations or sounds to react to choices made.
